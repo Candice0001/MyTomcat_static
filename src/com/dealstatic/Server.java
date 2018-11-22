@@ -6,7 +6,7 @@ import java.net.Socket;
 
 /**
  * 
- * Title: Server.java
+ * Title: Server.java    
  * Description: 本简易Tomcat只适合处理静态资源
  * 1. Tomcat开始运行之后，会在主机上开一个端口（默认是80端口），在所开辟的端口上运行一个ServerSocket，执行accept()方法等待浏览器访问。
  * 2. 浏览器访问目标主机的80端口，ServerSocket的accept()方法返回一个运行在服务器端的socket，
